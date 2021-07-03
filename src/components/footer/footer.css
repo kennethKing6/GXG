@@ -1,0 +1,25 @@
+ /**Footer**/
+ .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    padding-top: 1%;
+    width: 100%;
+    background-color: rgba(217, 217, 217, 0.4);
+   
+  }
+  
+  .instagram{
+    width: 30px;
+    margin-bottom: 10%;
+    margin-top: 1%;
+  }
+  
+  .twitter{
+    width: 30px;
+    margin-top: 1%;
+    margin-bottom: 10%;
+  
+  }
