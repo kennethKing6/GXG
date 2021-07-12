@@ -1,7 +1,7 @@
 import React from 'react';
 import {Layout,Image } from 'antd';
 import './header.css';
-import logo from '../../assets/logo/logo.jpg';
+import logo from '../../assets/logo/logo2.jpg';
 import {
   Link
 } from "react-router-dom"
@@ -21,14 +21,12 @@ export default function HeaderComponent() {
           className="logo_img"
         />
         </div>
-        <h1 className="header_title" >GXG SHOP</h1>
-        <h4 className="header_subtitle">HOME SALES</h4>
         <nav className="page_navigation">
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
           <Link to="/shop">Shop</Link>
           <Link to="/cart">Cart</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
       </Header>
     )
